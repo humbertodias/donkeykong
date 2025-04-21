@@ -1,22 +1,20 @@
-/*  
+/*
  * DonkeyKong
  * Define.h
- * This file contains definitions of values that were constant throughout the program, defined by image files or 
- * by determined properties of the game.
-*/
+ * This file contains definitions of values that were constant throughout the
+ * program, defined by image files or by determined properties of the game.
+ */
 
 #ifndef DEFINE_H
 #define DEFINE_H
 
-
 #define WINDOW_HEIGHT 600
-#define WINDOW_WIDTH 480 
+#define WINDOW_WIDTH 480
 
-
-#define MENU_START_X 180	//160 for menu.png
-#define MENU_START_Y 320	//360 for menu.png
-#define MENU_START_WIDTH 120	//160 for menu.png
-#define MENU_START_HEIGHT 60	//60 for menu.png
+#define MENU_START_X 180     // 160 for menu.png
+#define MENU_START_Y 320     // 360 for menu.png
+#define MENU_START_WIDTH 120 // 160 for menu.png
+#define MENU_START_HEIGHT 60 // 60 for menu.png
 #define MENU_CONTROLS_X 140
 #define MENU_CONTROLS_Y 400
 #define MENU_CONTROLS_WIDTH 200
@@ -35,9 +33,7 @@
 #define PLATFORM_HEIGHT 20
 #define LADDER_WIDTH 20
 
-
 #define FRAMES_PER_SECOND 20
-
 
 #define MARIO_WIDTH 14
 #define MARIO_HEIGHT 27
@@ -48,7 +44,6 @@
 #define MARIO_START_X 20
 #define MARIO_START_Y 525
 
-
 #define FIRE_WIDTH 13
 #define FIRE_HEIGHT 12
 
@@ -57,7 +52,6 @@
 
 #define FIRE_START_X 300
 #define FIRE_START_Y 525
-
 
 #define BARREL_WIDTH 13
 #define BARREL_HEIGHT 12
@@ -80,17 +74,18 @@
 #define PEACH_START_X 200
 #define PEACH_Y 100
 
-
 #define DK_WIDTH 62
 #define DK_HEIGHT 80
 
 #define DK_START_X 30
 #define DK_START_Y 108
 
-#define LEVEL_0_MIN 580		//for these levels this is lowest y value where platform exists
-#define LEVEL_0_MAX 568		//for these levels this is highest y value where platform exists
+#define LEVEL_0_MIN                                                            \
+  580 // for these levels this is lowest y value where platform exists
+#define LEVEL_0_MAX                                                            \
+  568 // for these levels this is highest y value where platform exists
 
-#define LEVEL_1_MIN 506		
+#define LEVEL_1_MIN 506
 #define LEVEL_1_MAX 485
 
 #define LEVEL_2_MIN 426
@@ -98,6 +93,5 @@
 
 #define LEVEL_3_MIN 346
 #define LEVEL_3_MAX 325
-
 
 #endif
