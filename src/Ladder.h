@@ -11,12 +11,12 @@
 #include "StaticObj.h"
 
 class Ladder : public StaticObj {
-public:
-  Ladder(int = 0, int = 0, int = 0, int = 0);
-  virtual void IsCollision(CMario &);
-  virtual void entityIsCollision(CEntity &);
+   public:
+    Ladder(int = 0, int = 0, int = 0, int = 0);
+    virtual void IsCollision(CMario&);
+    virtual void entityIsCollision(CEntity&);
 
-private:
+   private:
 };
 
 #endif

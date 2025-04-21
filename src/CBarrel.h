@@ -15,27 +15,27 @@
 using namespace std;
 
 class CBarrel : public CEntity {
-public:
-  CBarrel();
+   public:
+    CBarrel();
 
-  virtual void OnLoop();
-  virtual void OnRender(SDL_Surface *Surf_Display);
+    virtual void OnLoop();
+    virtual void OnRender(SDL_Surface* Surf_Display);
 
-  virtual int identifyType();
+    virtual int identifyType();
 
-  void set_clips();
+    void set_clips();
 
-  int getPlatformCollide();
-  void setPlatformCollide(int);
+    int  getPlatformCollide();
+    void setPlatformCollide(int);
 
-  void reset();
+    void reset();
 
-private:
-  SDL_Rect clips[3];
-  int moved;
-  int direction;
-  int platformCollide;
-  int resetCount;
+   private:
+    SDL_Rect clips[3];
+    int      moved;
+    int      direction;
+    int      platformCollide;
+    int      resetCount;
 };
 
 #endif

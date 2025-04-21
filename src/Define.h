@@ -11,10 +11,10 @@
 #define WINDOW_HEIGHT 600
 #define WINDOW_WIDTH 480
 
-#define MENU_START_X 180     // 160 for menu.png
-#define MENU_START_Y 320     // 360 for menu.png
-#define MENU_START_WIDTH 120 // 160 for menu.png
-#define MENU_START_HEIGHT 60 // 60 for menu.png
+#define MENU_START_X 180      // 160 for menu.png
+#define MENU_START_Y 320      // 360 for menu.png
+#define MENU_START_WIDTH 120  // 160 for menu.png
+#define MENU_START_HEIGHT 60  // 60 for menu.png
 #define MENU_CONTROLS_X 140
 #define MENU_CONTROLS_Y 400
 #define MENU_CONTROLS_WIDTH 200
@@ -80,10 +80,8 @@
 #define DK_START_X 30
 #define DK_START_Y 108
 
-#define LEVEL_0_MIN                                                            \
-  580 // for these levels this is lowest y value where platform exists
-#define LEVEL_0_MAX                                                            \
-  568 // for these levels this is highest y value where platform exists
+#define LEVEL_0_MIN 580  // for these levels this is lowest y value where platform exists
+#define LEVEL_0_MAX 568  // for these levels this is highest y value where platform exists
 
 #define LEVEL_1_MIN 506
 #define LEVEL_1_MAX 485

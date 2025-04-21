@@ -15,24 +15,24 @@
 #include "CMario.h"
 #include "Define.h"
 
-class CPeach : public CEntity { // inheriting from CEntity class
+class CPeach : public CEntity {  // inheriting from CEntity class
 
-public:
-  CPeach();
+   public:
+    CPeach();
 
-  virtual void OnLoop();
-  virtual void OnRender(SDL_Surface *Surf_Display);
-  virtual int IsCollision(CMario &);
+    virtual void OnLoop();
+    virtual void OnRender(SDL_Surface* Surf_Display);
+    virtual int  IsCollision(CMario&);
 
-  virtual int identifyType();
+    virtual int identifyType();
 
-private:
-  int direction; //+1 or -1, will determine if she is currently moving left or
-                 //right
-  int moved; // true or false value, used to slow down Peach's movement; if it
-             // is true during call to OnLoop, it is set to false, and x and
-             // frame are not updated; if it is false, it is set to true, and x
-             // and frame are updated
+   private:
+    int direction;  //+1 or -1, will determine if she is currently moving left or
+                    // right
+    int moved;      // true or false value, used to slow down Peach's movement; if it
+                    // is true during call to OnLoop, it is set to false, and x and
+                    // frame are not updated; if it is false, it is set to true, and x
+                    // and frame are updated
 };
 
 #endif
